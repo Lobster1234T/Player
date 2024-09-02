@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проигрыватель музыки</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="player">
+        <!-- Кнопка для перемотки назад на 15 секунд -->
+        <button id="back15" class="control-button">
+            <img src="UI/back15.png" alt="Назад 15 секунд">
+        </button>
+        <!-- Кнопка для воспроизведения и паузы -->
+        <button id="playPause" class="control-button play-button">
+            <img id="playPauseImage" src="UI/play.png" alt="Пауза/Играть">
+        </button>
+        <!-- Кнопка для перемотки вперед на 30 секунд -->
+        <button id="forward30" class="control-button">
+            <img src="UI/forward30.png" alt="Вперед 30 секунд">
+        </button>
+    </div>
+    
+    <!-- Элемент аудио -->
+    <audio id="audio" src="your-audio-file.mp3"></audio>
+
+    <!-- Подключение скрипта -->
+    <script src="script.js"></script>
+</body>
+</html>

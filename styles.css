@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0A0B1A; /* Черный фон */
+    margin: 0;
+    color: #fff; /* Белый цвет текста */
+}
+
+.player {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.control-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.control-button img {
+    width: 50px;
+    height: 50px;
+    filter: invert(0%); /* Инвертируем цвет изображения для лучшего отображения на черном фоне */
+}
